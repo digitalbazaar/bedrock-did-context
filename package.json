@@ -1,0 +1,37 @@
+{
+  "name": "bedrock-did-context",
+  "version": "0.0.1-0",
+  "description": "DID Context (Bedrock module)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint 'lib/**.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-did-context.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-did-context/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-did-context",
+  "dependencies": {
+    "did-context": "^2.0.0"
+  },
+  "peerDependencies": {
+    "bedrock": "2.0.0 - 3.x",
+    "bedrock-jsonld-document-loader": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-digitalbazaar": "^2.0.1"
+  }
+}

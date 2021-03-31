@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-did-context",
   "dependencies": {
-    "did-context": "^2.0.0"
+    "did-context": "^3.0.0"
   },
   "peerDependencies": {
     "bedrock": "2.0.0 - 4.x",

@@ -1,5 +1,10 @@
 # bedrock-did-context ChangeLog
 
+## 2.0.1 - 2021-09-15
+
+### Fixed
+- Restrict constant import to constants containing 'URL'.
+
 ## 2.0.0 - 2021-03-31
 
 ### Changed

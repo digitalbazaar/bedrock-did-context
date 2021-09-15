@@ -1,5 +1,10 @@
 # bedrock-did-context ChangeLog
 
+## 2.0.2 - 2021-09-15
+
+### Changed
+- Refactor constant and context import.
+
 ## 2.0.1 - 2021-09-15
 
 ### Fixed

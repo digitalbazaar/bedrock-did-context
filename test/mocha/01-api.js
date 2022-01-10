@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2019-2021 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2020-2022 Digital Bazaar, Inc. All rights reserved.
  */
 'use strict';
 
@@ -13,7 +13,7 @@ describe('bedrock-did-context', () => {
       if(!c.includes('URL')) {
         continue;
       }
-      // ensure that context documents are defined
+      // ensure that context document is defined
       const result = await documentLoader(contextConstants[c]);
       should.exist(result);
       should.exist(result.document);

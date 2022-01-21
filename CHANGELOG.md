@@ -1,6 +1,6 @@
 # bedrock-did-context ChangeLog
 
-## 2.0.3 - 2022-TBD
+## 2.0.3 - 2022-01-21
 
 ### Added
 - Setup tests.

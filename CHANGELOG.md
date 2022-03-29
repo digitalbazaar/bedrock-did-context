@@ -1,6 +1,6 @@
 # bedrock-did-context ChangeLog
 
-## 2.1.0 - 2022-03-xx
+## 2.1.0 - 2022-03-28
 
 ### Changed
 - Update peer deps:

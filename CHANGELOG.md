@@ -1,6 +1,6 @@
 # bedrock-did-context ChangeLog
 
-## 3.0.1 - 2022-04-xx
+## 3.0.1 - 2022-04-03
 
 ### Fixed
 - Fix main entry point in `package.json`.

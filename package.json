@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/did-context",
-  "version": "3.0.0",
+  "version": "3.0.1-0",
   "type": "module",
   "description": "DID Context (Bedrock module)",
   "license": "SEE LICENSE IN LICENSE.md",

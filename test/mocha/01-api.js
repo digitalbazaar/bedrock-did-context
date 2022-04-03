@@ -1,24 +1,20 @@
 /*!
  * Copyright (c) 2020-2022 Digital Bazaar, Inc. All rights reserved.
  */
-'use strict';
-
-const {documentLoader} = require('bedrock-jsonld-document-loader');
+import {documentLoader} from '@bedrock/jsonld-document-loader';
 
 describe('bedrock-did-context', () => {
   it('sets up did context properly', async () => {
-    const {contexts, constants: contextConstants} = require('did-context');
-
-    for(const c in contextConstants) {
-      if(!c.includes('URL')) {
-        continue;
-      }
+    const {contexts} = await import('did-context');
+    for(const [contextUrl, context] of contexts) {
       // ensure that context document is defined
-      const result = await documentLoader(contextConstants[c]);
+      const result = await documentLoader(contextUrl);
       should.exist(result);
       should.exist(result.document);
       result.document.should.be.an('object');
-      result.document.should.eql(contexts.get(contextConstants[c]));
+      result.document.should.eql(context);
+      should.exist(result.tag);
+      result.tag.should.eql('static');
     }
   });
 });

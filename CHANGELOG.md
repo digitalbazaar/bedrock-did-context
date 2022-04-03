@@ -1,5 +1,13 @@
 # bedrock-did-context ChangeLog
 
+## 3.0.0 - 2022-04-xx
+
+### Changed
+- **BREAKING**: Rename package to `@bedrock/did-context`.
+- **BREAKING**: Convert to module (ESM).
+- **BREAKING**: Remove default export.
+- **BREAKING**: Require node 14.x.
+
 ## 2.1.0 - 2022-03-28
 
 ### Changed

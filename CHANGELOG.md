@@ -8,6 +8,10 @@
 - **BREAKING**: Remove default export.
 - **BREAKING**: Require node 14.x.
 
+### Removed
+- **BREAKING**: Remove adding any constants to bedrock config system. If
+  constants are needed, import them from `constants`.
+
 ## 2.1.0 - 2022-03-28
 
 ### Changed

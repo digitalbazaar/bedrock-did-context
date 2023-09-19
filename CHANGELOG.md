@@ -1,5 +1,12 @@
 # bedrock-did-context ChangeLog
 
+## 5.0.0 - 2023-09-xx
+
+### Changed
+- **BREAKING**: Drop support for Node.js < 18.
+- Use peer `@bedrock/jsonld-document-loader@4`. This version requires
+  Node.js 18+.
+
 ## 4.0.0 - 2022-04-29
 
 ### Changed

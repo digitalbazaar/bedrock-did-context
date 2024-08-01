@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-did-context",
   "dependencies": {
-    "did-context": "^3.0.0"
+    "did-context": "^3.1.1"
   },
   "peerDependencies": {
     "@bedrock/jsonld-document-loader": "^5.1.0"

@@ -1,6 +1,6 @@
 # bedrock-did-context ChangeLog
 
-## 6.0.0 - 2024-08-xx
+## 6.0.0 - 2024-08-01
 
 ### Changed
 - **BREAKING**: Update peer deps:

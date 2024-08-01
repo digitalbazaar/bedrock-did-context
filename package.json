@@ -28,8 +28,7 @@
     "did-context": "^3.0.0"
   },
   "peerDependencies": {
-    "@bedrock/core": "^6.0.0",
-    "@bedrock/jsonld-document-loader": "^4.0.0"
+    "@bedrock/jsonld-document-loader": "^5.1.0"
   },
   "engines": {
     "node": ">=18"

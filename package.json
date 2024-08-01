@@ -5,6 +5,9 @@
   "description": "DID Context (Bedrock module)",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "./lib/index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
   "scripts": {
     "lint": "eslint ."
   },

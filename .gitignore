@@ -3,9 +3,9 @@
 *~
 .project
 .settings
+.vscode
+.nyc_output
 TAGS
 coverage
 node_modules
 reports
-.vscode
-.nyc_output
